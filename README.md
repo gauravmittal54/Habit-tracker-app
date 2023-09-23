@@ -23,6 +23,7 @@ git clone https://github.com/gauravmittal54/habit-tracker-app.git
 3. Install Dependencies: Navigate to the project directory and install the required dependencies using npm:
   ```bash
 npm install
+ ```bash
 
 5. Set Up MongoDB: Ensure you have MongoDB installed and running on your local machine. You may need to configure the database connection in the db_connection.js file.
 
