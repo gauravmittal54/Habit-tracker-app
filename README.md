@@ -41,6 +41,44 @@ git clone https://github.com/gauravmittal54/habit-tracker-app.git
 
 5. Tracking Progress: The completion status of each habit is dynamically updated based on user input.
 
+# Folder Structure
+
+<pre>
+
+Habit-tracker-app/
+|-- connection/
+|   |-- db.connection.js
+|-- controllers/
+|   |-- formatDate.js
+|   |-- getDayofWeek.js
+|-- models/
+|   |-- habitSchema.js
+|-- routers/
+|   |-- routes.js
+|-- public/
+|   |-- css/
+|   |   |-- main-style.css
+|   |   |-- style.css
+|   |   |-- view-styles.css
+|   |-- js/
+|       |-- script.js
+|       |-- view-script.js
+|-- templates/
+|   |-- partials/
+|   |   |-- icon.hbs
+|   |   |-- messagebox.hbs
+|   |-- 404ErrorPage.hbs
+|   |-- addHabitPage.hbs
+|   |-- index.hbs
+|   |-- viewAllHabits.hbs
+|-- index.js
+|-- package.json
+|-- README.md
+
+  
+</pre>
+
+
 # Contact
 For any questions or feedback, please contact:
 Your Name: Gaurav
