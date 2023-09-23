@@ -1,5 +1,7 @@
 # Habit-tracker-app
- A web application built with Node.js, Express, and MongoDB. It allows users to add and track their daily habits, view their progress, and mark habits as favorites using checkboxes. The project also features dynamic rendering of habit status and leverages Handlebars.js for templating.
+![image](https://github.com/gauravmittal54/Habit-tracker-app/assets/61792468/0986bd1d-43b1-41e3-90fd-f5bfaa18617f)![image](https://github.com/gauravmittal54/Habit-tracker-app/assets/61792468/8c57a371-7131-4622-8e17-b61cd488b168)
+
+
 
 # Features
 1. User-Friendly Interface: The application offers an intuitive and user-friendly interface for managing daily habits.
