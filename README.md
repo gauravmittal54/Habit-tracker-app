@@ -18,17 +18,18 @@
 To run the Habit Tracker Web Application on your local machine, follow these steps:
 
 1. Clone the Repository: Clone this repository to your local machine using the following command:
+  ```bash
 git clone https://github.com/gauravmittal54/habit-tracker-app.git
 
-2. Install Dependencies: Navigate to the project directory and install the required dependencies using npm:
+3. Install Dependencies: Navigate to the project directory and install the required dependencies using npm:
 npm install
 
-3. Set Up MongoDB: Ensure you have MongoDB installed and running on your local machine. You may need to configure the database connection in the db_connection.js file.
+4. Set Up MongoDB: Ensure you have MongoDB installed and running on your local machine. You may need to configure the database connection in the db_connection.js file.
 
-4. Start the Application: Launch the Habit Tracker application by running:
+5. Start the Application: Launch the Habit Tracker application by running:
 npm start
 
-5. Access the Application: Open your web browser and access the application at http://localhost:8000.
+6. Access the Application: Open your web browser and access the application at http://localhost:8000.
 
 # Usage
 1. Adding Habits: Click the "Add Habit" button and enter the habit name. Press "Enter" or click "Add" to create a new habit.
