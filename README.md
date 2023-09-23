@@ -31,21 +31,6 @@ npm start
 
 5. Access the Application: Open your web browser and access the application at http://localhost:8000.
 
-# Usage
-1. Adding Habits: Click the "Add Habit" button and enter the habit name. Press "Enter" or click "Add" to create a new habit.
-
-2. Updating Habits: Click on the habit name to edit it. Update the name and click "Save" to save your changes.
-
-3. Deleting Habits: To remove a habit, click the "Delete" button next to the habit you want to remove.
-
-4. Marking Favorites: Use the checkbox in the "Favorite" column to mark habits as favorites. Checked habits are prioritized.
-
-5. Tracking Progress: The completion status of each habit is dynamically updated based on user input.
-
-# Contact
-For any questions or feedback, please contact:
-Your Name: Gaurav
-Project Repository: https://github.com/gauravmittal54/habit-tracker-app
 
 
 
