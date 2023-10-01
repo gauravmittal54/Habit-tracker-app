@@ -7,7 +7,7 @@
    - [Usage](#usage)
    - [Folder Structure](#folder-structure)
    - [Technologies Used](#technologies-used)
-   - [Contributing](#contributing)
+   - [Contact](#Contact)
 
 
 ## UI-Screenshots
