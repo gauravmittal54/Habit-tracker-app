@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost:27017/habbitDB';
 
-mongoose.connect("mongodb://mongo:eTxTs2Gco5NuuyGTQkJ0@containers-us-west-186.railway.app:6104", {useNewUrlParser: true}*/);
+mongoose.connect(mongoUrl, {useNewUrlParser: true});
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
