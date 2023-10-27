@@ -1,14 +1,14 @@
 /* Reset default styles and set font family */
 body {
   font-family: 'Roboto', Arial, sans-serif;
-    background: linear-gradient(to bottom, #3498db, #1abc9c);
-    animation: gradientAnimation 10s infinite alternate;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-    transition: background 0.5s ease;
+  background: linear-gradient(to bottom, #3498db, #1abc9c);
+  animation: gradientAnimation 10s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease;
 }
 
 /* Header styling */
@@ -154,4 +154,40 @@ footer {
   margin-top: auto;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%; /* Reduce the width for small screens */
+    margin: 20px auto;
+  }
 
+  h1 {
+    font-size: 24px; /* Reduce the font size for smaller screens */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .input-container {
+    flex-direction: column; /* Stack input and button vertically on small screens */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust padding for the input field and button */
+  .input-container input {
+    padding: 10px;
+  }
+
+  .input-container button {
+    padding: 10px 20px;
+    margin-left: 0;
+  }
+
+  .habit-list {
+    max-height: 200px;
+  }
+
+  /* Decrease the font size for habit items */
+  .habit-item {
+    font-size: 14px;
+  }
+}
