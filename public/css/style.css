@@ -54,6 +54,13 @@ nav {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+      background-color: transparent; /* Set background to transparent on mobile view */
+      box-shadow: none;
+  }
+}
+
 /* Heading style */
 h1 {
   color: #181717;
