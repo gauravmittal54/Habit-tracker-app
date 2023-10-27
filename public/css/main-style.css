@@ -27,11 +27,10 @@ body {
     }
 }
 
-
-footer{
+footer {
     padding: 10px;
-  width: 100%;
-  margin-top: auto;
+    width: 100%;
+    margin-top: auto;
 }
 
 .header-footer {
@@ -184,5 +183,13 @@ footer{
     .habit-list {
         max-height: 200px;
     }
-}
 
+    .header-footer {
+        padding: 10px 0;
+    }
+
+    .header-footer a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+}
